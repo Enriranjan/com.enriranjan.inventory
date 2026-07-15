@@ -1,0 +1,37 @@
+# This is a UPM package repository, not a Unity project.
+# .meta files ARE committed on purpose: a package's .meta files carry the
+# GUIDs that Unity uses to resolve references, and other projects consuming
+# this package via Git URL need them to be present and stable.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.user
+
+# IDE / local tooling
+.vs/
+.vscode/
+.idea/
+.claude/
+*.csproj
+*.sln
+*.unityproj
+
+# Build / cache artifacts that could appear if this package is opened
+# directly as (or symlinked into) a Unity project during development
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+/[Aa]ssets/AssetStoreTools*
+
+# Crashlytics
+crashlytics-build.properties
+
+# Editor-generated files that don't belong in a package
+sysinfo.txt

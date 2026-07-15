@@ -1,0 +1,36 @@
+# Normalize line endings for everything by default.
+* text=auto eol=lf
+
+# Explicitly treat Unity/UPM text formats as text so they get LF
+# normalization and readable diffs regardless of the author's OS.
+*.cs text diff=csharp
+*.asmdef text
+*.asmref text
+*.json text
+*.md text
+*.meta text
+*.yml text
+*.yaml text
+*.shader text
+*.cginc text
+*.hlsl text
+*.compute text
+*.uxml text
+*.uss text
+
+# Common binary asset types some samples may include - never touch these.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.psd binary
+*.ai binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
+*.dll binary
+*.exr binary
