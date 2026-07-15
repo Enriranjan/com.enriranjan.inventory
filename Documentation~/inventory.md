@@ -1,8 +1,8 @@
-# __DISPLAY_NAME__
+# Inventory
 
-__DESCRIPTION__
+Inventario genérico basado en slots: capacidad, añadir/retirar y eventos de cambio sobre identificadores opacos. C# puro, sin conocimiento del tipo de item ni del motor; la semántica de qué contiene cada slot la aporta la capa de aplicación.
 
-Package: `com.enriranjan.__PACKAGE_ID__`
+Package: `com.enriranjan.inventory`
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Package: `com.enriranjan.__PACKAGE_ID__`
 
 ## Installation
 
-See the main [README](../README.md#instalación) for installation instructions
+See the main [README](../README.md#instalaciÃ³n) for installation instructions
 (Git URL or embedded package).
 
 ## Getting Started

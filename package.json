@@ -1,8 +1,8 @@
 {
-  "name": "com.enriranjan.__PACKAGE_ID__",
+  "name": "com.enriranjan.inventory",
   "version": "0.1.0",
-  "displayName": "__DISPLAY_NAME__",
-  "description": "__DESCRIPTION__",
+  "displayName": "Inventory",
+  "description": "Inventario genérico basado en slots: capacidad, añadir/retirar y eventos de cambio sobre identificadores opacos. C# puro, sin conocimiento del tipo de item ni del motor; la semántica de qué contiene cada slot la aporta la capa de aplicación.",
   "unity": "6000.0",
   "author": {
     "name": "Enrique Ranjan",
@@ -12,10 +12,10 @@
   "samples": [
     {
       "displayName": "Basic Usage",
-      "description": "Minimal example showing how to use __DISPLAY_NAME__.",
+      "description": "Minimal example showing how to use Inventory.",
       "path": "Samples~/BasicUsage"
     }
   ],
-  "documentationUrl": "https://github.com/enriranjan/__PACKAGE_ID__/blob/main/Documentation~/__PACKAGE_ID__.md",
-  "changelogUrl": "https://github.com/enriranjan/__PACKAGE_ID__/blob/main/CHANGELOG.md"
+  "documentationUrl": "https://github.com/enriranjan/inventory/blob/main/Documentation~/inventory.md",
+  "changelogUrl": "https://github.com/enriranjan/inventory/blob/main/CHANGELOG.md"
 }

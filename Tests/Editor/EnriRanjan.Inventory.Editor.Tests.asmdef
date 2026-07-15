@@ -1,9 +1,9 @@
 {
-    "name": "EnriRanjan.__PACKAGE_NAME__.Editor.Tests",
-    "rootNamespace": "EnriRanjan.__PACKAGE_NAME__.Editor.Tests",
+    "name": "EnriRanjan.Inventory.Editor.Tests",
+    "rootNamespace": "EnriRanjan.Inventory.Editor.Tests",
     "references": [
-        "EnriRanjan.__PACKAGE_NAME__",
-        "EnriRanjan.__PACKAGE_NAME__.Editor",
+        "EnriRanjan.Inventory",
+        "EnriRanjan.Inventory.Editor",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

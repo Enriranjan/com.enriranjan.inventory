@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace EnriRanjan.__PACKAGE_NAME__.Editor.Tests
+namespace EnriRanjan.Inventory.Editor.Tests
 {
     public class EditorPlaceholderTests
     {

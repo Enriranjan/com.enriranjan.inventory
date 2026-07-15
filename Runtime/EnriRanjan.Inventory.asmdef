@@ -1,6 +1,6 @@
 {
-    "name": "EnriRanjan.__PACKAGE_NAME__",
-    "rootNamespace": "EnriRanjan.__PACKAGE_NAME__",
+    "name": "EnriRanjan.Inventory",
+    "rootNamespace": "EnriRanjan.Inventory",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
